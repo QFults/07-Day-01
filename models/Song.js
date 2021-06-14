@@ -6,7 +6,7 @@ const Song = {
     return songs
   },
   async getSong (where) {
-    const songs = await typeof where === 'number' ? orm.findById('songs', where) : orm.findWhere('songs', where)
+    const songs = await typeof where === 'string' ? orm.findById('songs', where) : orm.findWhere('songs', where)
     return songs
   },
   async addSong (song) {

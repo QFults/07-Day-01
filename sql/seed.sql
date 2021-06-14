@@ -1,4 +1,4 @@
-USE songs_db;
+USE media_db;
 
 INSERT INTO songs (title, artist)
 VALUES ('Lavagirl', 'ILYTommy'),

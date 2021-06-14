@@ -1,8 +1,8 @@
-DROP DATABASE IF EXISTS songs_db;
+DROP DATABASE IF EXISTS media_db;
 
-CREATE DATABASE songs_db;
+CREATE DATABASE media_db;
 
-USE songs_db;
+USE media_db;
 
 CREATE TABLE songs (
   id INT PRIMARY KEY AUTO_INCREMENT NOT NULL,
