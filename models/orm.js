@@ -59,3 +59,5 @@ const orm = {
     return response
   }
 }
+
+module.exports = orm
