@@ -1,1 +1,1 @@
-module.exports = require('mysql2').createConnection('mysql://root:rootroot@localhost:3306/media_db')
+module.exports = require('mysql2').createConnection(process.env.JAWSDB_URL || process.env.LOCAL_URL)
